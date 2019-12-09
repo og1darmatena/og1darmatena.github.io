@@ -1,0 +1,50 @@
+body{
+  background-color: #lightblue;
+  background-image: url(gambar/studio.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1{
+  color:green;
+  font-size:30;
+}
+.container {
+  width: 800px;
+  margin:auto;
+  background-color: silver;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+.header ul li{
+
+  display: inline-block;
+  margin-right: 20px;
+
+}
+.hero {
+  height: 280px;
+  background-image: url(gambar/bar.jpg);
+  background-size: cover;
+  background-position: 0 -180px;
+  border-top: 5px solid lightskyblue;
+  border-bottom: 5px solid lightskyblue;
+}
+.content{
+  padding: 20px;
+}
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.content .penulis {
+  font-size: 11px;
+  margin-top: -20px;
+}
+.video iframe{
+margin-right: 100px;
+
+}
